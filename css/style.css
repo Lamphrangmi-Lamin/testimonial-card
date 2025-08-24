@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -16,21 +18,20 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border-radius: 6px;
-  box-shadow: 3px 2px 5px #525252;
+  border-radius: 8px;
+  box-shadow: 3px 2px 5px #D2D6DB;
 }
 
 
 .avatar-container {
   display: flex;
   align-items: center;
-  gap: .5rem;
-  margin: 24px;
-  margin-bottom: 0;
+  gap: 16px;
+  margin: 24px 24px 16px 24px;
 }
 
 .profile-image {
-    height: 48px;
+    width: 48px;
 }
 .username {
   font-weight: 600;
@@ -41,11 +42,12 @@ body {
   font-weight: 400;
   color: #525252;
   font-size: .875rem;
+  display: block;
 }
 
 .testimonial {
   color: #525252;
   font-size: 1rem;
-  margin: 24px;
-  margin-top: 0;
+  margin: 0px 24px 24px 24px;
+  max-width: 292px;
 }
